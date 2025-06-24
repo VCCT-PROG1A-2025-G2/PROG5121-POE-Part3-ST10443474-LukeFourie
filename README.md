@@ -20,6 +20,7 @@ Features:
   - Search messages by Message ID or Recipient number.
   - Delete messages using message hash.
   - Display a full summary report of all sent messages.
+    
 
 Technologies Used:
 - Java 17+
@@ -27,6 +28,7 @@ Technologies Used:
 - JUnit 5
 - Gson
 - Swing (JOptionPane)
+  
 
 Unit Testing:
 Tests are located in LoginTest.java and MessageTest.java. They validate:
@@ -38,6 +40,7 @@ Tests are located in LoginTest.java and MessageTest.java. They validate:
 To run all tests: mvn test
 
 Project Structure:
+
 QuickChat/
 ├── src/
 │   ├── main/
@@ -53,6 +56,7 @@ QuickChat/
 ├── messages.json        (runtime storage)
 ├── pom.xml              (Maven configuration)
 ├── README.md
+
 
 Installation & Running:
 
